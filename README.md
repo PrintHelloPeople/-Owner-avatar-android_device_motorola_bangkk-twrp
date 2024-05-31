@@ -1,4 +1,4 @@
-# TWRP Device Tree for Motorola G34 5G (fogos).
+# TWRP Device Tree for Motorola Moto G84 (bangkk).
 
 ## Setup repo tool
 Setup repo tool from here https://source.android.com/setup/develop#installing-repo
@@ -20,8 +20,8 @@ and then paste the following
 <remote name="github"
 	fetch="https://github.com/" />
 
-<project path="device/motorola/fogos"
-	name="PrintHelloPeople/android_device_motorola_fogos-twrp"
+<project path="device/motorola/bangkk"
+	name="PrintHelloPeople/android_device_motorola_bangkk-twrp"
 	remote="github"
 	revision="master" />
 </manifest>
@@ -44,7 +44,7 @@ To test it:
 
 ```
 # To temporarily boot it
-fastboot boot out/target/product/fogos/boot.img 
+fastboot boot out/target/product/bangkk/boot.img 
 
 # To make twrp replace stock recovery temporarily boot twrp and navigate
 to advanced menu and select Flash Current TWRP option.
