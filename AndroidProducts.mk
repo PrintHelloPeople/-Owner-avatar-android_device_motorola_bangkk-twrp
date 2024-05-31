@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_fogos.mk
+    $(LOCAL_DIR)/twrp_bangkk.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_fogos-eng
+    twrp_bangkk-eng

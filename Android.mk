@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),fogos)
+ifeq ($(TARGET_DEVICE),bangkk)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/fogos
+DEVICE_PATH := device/motorola/bangkk
 
 # Architecture
 TARGET_ARCH := arm64
@@ -22,11 +22,11 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a75
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := fogos
+TARGET_BOOTLOADER_BOARD_NAME := bangkk
 TARGET_NO_BOOTLOADER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := fogos,fogos_retcn
+TARGET_OTA_ASSERT_DEVICE := bangkk,bangkk_retcn
 
 # Kernel
 TARGET_NO_KERNEL := false
@@ -131,7 +131,7 @@ TW_CUSTOM_BATTERY_POS := 790
 
 
 # Add TW_DEVICE_VERSION
-TW_DEVICE_VERSION := Fogos
+TW_DEVICE_VERSION := Bangkk
 
 # TWRP-debug
 TARGET_USES_LOGD := true
